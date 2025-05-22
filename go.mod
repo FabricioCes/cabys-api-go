@@ -1,4 +1,4 @@
-module cabys-api-go
+module github.com/FabricioCes/cabys-api-go
 
 go 1.24.0
 

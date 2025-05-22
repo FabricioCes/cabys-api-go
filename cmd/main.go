@@ -1,9 +1,8 @@
 package main
 
 import (
-	"cabys-api-go/internal/cabys"
-	"cabys-api-go/utils"
-
+	"github.com/FabricioCes/cabys-api-go/internal/cabys"
+	"github.com/FabricioCes/cabys-api-go/utils"
 	"github.com/gin-gonic/gin"
 )
 

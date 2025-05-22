@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"cabys-api-go/internal/cabys"
+	"github.com/FabricioCes/cabys-api-go/internal/cabys"
 )
 
 func LoadCabysData(path string) []cabys.CabysCode {
