@@ -3,8 +3,8 @@ project:
 
 build:
   builder: go
-  buildCommand: go build -o app ./cmd/main.go
+  buildCommand: go build -o out ./cmd/main.go
 
 run:
-  startCommand: ./app
+  startCommand: ./out
   port: 8080
