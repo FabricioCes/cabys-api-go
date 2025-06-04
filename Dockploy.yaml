@@ -1,0 +1,10 @@
+project:
+  name: cabys-api-go
+
+build:
+  builder: go
+  buildCommand: go build -o app ./cmd/main.go
+
+run:
+  startCommand: ./app
+  port: 8080

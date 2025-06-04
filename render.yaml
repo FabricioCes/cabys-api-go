@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: cabys-api
-    env: go
-    plan: free
-    buildCommand: go build -o main ./cmd/main.go
-    startCommand: ./main
-    autoDeploy: true
