@@ -28,5 +28,5 @@ func main() {
 		c.JSON(200, gin.H{"status": "ok"})
 	})
 
-	r.Run(":8080")
+	r.Run("0.0.0.0:8080")
 }
