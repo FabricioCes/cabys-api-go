@@ -12,7 +12,7 @@ func main() {
 
 	// Middleware CORS
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:3000", "https://tu-dominio-frontend.com"},
+		AllowOrigins:     []string{"*"},
 		AllowMethods:     []string{"GET"},
 		AllowHeaders:     []string{"Origin"},
 		ExposeHeaders:    []string{"Content-Length"},
