@@ -1,6 +1,6 @@
 module github.com/FabricioCes/cabys-api-go
 
-go 1.24
+go 1.24.0
 
 require (
 	github.com/bytedance/sonic v1.13.2 // indirect
